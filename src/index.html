@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        $('.carousel').carousel({
+  interval: 2000
+})
+    </script>
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+            <ul>
+                <li><a href="#mytune"> MyTunes</a></li>
+                <li><a href="">Overview</a></li>
+                <li><a href="">Music</a></li>
+                <li><a href="">Video</a></li>
+                <li><a href="">Gift Cards</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <h1>Seção 1</h1>
+       <section class="container">
+            <div class="slide-wrapper">
+                <div class="slider">
+                    <iframe id="vid_1" src="https://www.youtube.com/embed/j39RyFmoQrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe id="vid_2" src="https://www.youtube.com/embed/f5nfK04kGB0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe id="vid_3" src="https://www.youtube.com/embed/Zbgh0xkndqA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <!--ids to make the transitions and count the button to change the slide-->
+                <div class="slider-nav">
+                    <a href="#vid_1"></a>
+                    <a href="#vid_2"></a>
+                    <a href="#vid_3"></a>
+                </div>
+            </div>
+
+       </section>
+        
+        <!--<section id="mytune">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis laboriosam reprehenderit est ad delectus necessitatibus quaerat similique, eos odit nulla, illum cumque beatae aliquid iste? Unde id voluptates exercitationem error!Lorem
+            </p>
+        </section>-->
+    </main>
+</body>
+</html>
